@@ -1,7 +1,27 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# Unsupervised data analysis
+## Final Project
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+The data includes two csv files `train1.csv` and `train2.csv`, taken from the ["News Clickbait Dataset"](https://www.kaggle.com/datasets/vikassingh1996/news-clickbait-dataset) on Kaggle and stored in the `/data` folder.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+The Jupyter notebook for this project, `UDA_FinalProject_Nguyen.ipynb`, is stored in the `\notebooks` folder.
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+To run the notebook,
+
+1. Install the required packages in [`requirements.txt`](./requirements.txt) (e.g. `pip install -r requirements.txt`). The list of required packages is:
+
+<div align="center">
+
+|Packages|Version|
+|---	|---	|
+|ipywidgets|7.7.1|
+|matplotlib|3.7.0|
+|numpy|1.24.2|
+|pandas|1.5.3|
+|nltk|3.8.1|
+|seaborn|0.13.0|
+|wordcloud|1.9.3|
+|scikit-learn|1.3.2|
+
+</div>
+
+2. Open and run [`UDA_FinalProject_Nguyen.ipynb`](./notebooks/UDA_FinalProject_Nguyen.ipynb) with Jupyter Lab or VSCode.
