@@ -5,7 +5,7 @@ The data includes two csv files `train1.csv` and `train2.csv`, taken from the ["
 
 The Jupyter notebook for this project, `UDA_FinalProject_Nguyen.ipynb`, is stored in the `\notebooks` folder.
 
-The notebook can be run on Github Codespace.
+The notebook was run on Github Codespace with 4 cores, 16 GB RAM and 32 GB of storage. The total runtime was about 5 minutes.
 
 Alternatively, to run the notebook locally,
 
